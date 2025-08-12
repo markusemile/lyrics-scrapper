@@ -204,4 +204,7 @@ cython_debug/
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# app folder
+lyrics/
 __marimo__/
