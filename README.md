@@ -6,6 +6,8 @@ C'est mon premier projet en python, donc en cours.
 Il va me permettre d'apprendre divers modules.
 - requests
 - beautifulsoup
+- la création de decorateur
+- les logs
 
 L'utilisateur lui pourra en autre :
 - rechercher un artiste
