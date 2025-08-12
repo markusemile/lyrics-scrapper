@@ -1,0 +1,9 @@
+31-07-2025 (18:19:21) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+31-07-2025 (18:19:21) :DEBUG : artist_class.py at line 21 => Initialisation of Artist
+31-07-2025 (18:19:21) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+31-07-2025 (18:21:14) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+31-07-2025 (18:21:14) :DEBUG : artist_class.py at line 21 => Initialisation of Artist
+31-07-2025 (18:21:14) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+31-07-2025 (18:23:26) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+31-07-2025 (18:23:26) :DEBUG : artist_class.py at line 21 => Initialisation of Artist
+31-07-2025 (18:23:26) :DEBUG : api_service.py at line 14 => initialisation of ApiService

@@ -1,0 +1,28 @@
+artists(self, name, id)
+	class : nom, id, songs[SongModel]
+	-> get_all_song
+	-> get_id
+	-> set_name	
+
+song(self,keyword, id)  
+	class:id, id_artist, artist_name, filename
+	-> search_by_word -> api_service(search_Artist):type:Artist
+	-> search_by_id -> api_service(search_Song): type:Artist
+	
+
+file_service
+	get_all_artist
+	get_all_song
+	get_artist_song
+	
+api_service
+	search_Artist =>
+	search_Song
+
+	error : return ResponseModel
+
+
+ArtistModel : id,name,songs[SongModel]
+SongModel : id , artist_id, artist_name, title, filename
+ArtistWrapper: artist=ArtistModel
+ResponseModel : success:bool, status_code, message:optional, data:optional
