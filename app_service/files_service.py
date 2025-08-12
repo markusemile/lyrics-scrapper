@@ -1,14 +1,25 @@
 import unicodedata
 import json
-from pathlib import Path
 import re
 import os
+from typing import Any, Union, Text
+from pathlib import Path
 from app_utils import error, info
+from app_utils.paginate_data import paginate_data, KeyValue
+from pydantic import BaseModel
+from app_utils import wipe_screen
+
+
+class LocalSongModel(BaseModel):
+    title: str
+    path: str
 
 
 class FileService:
     def __init__(self):
         self.racine = Path(__file__).parent.parent.resolve()
+        self.lyrics_folder = self.racine / "lyrics"
+        self.index_file = self.lyrics_folder / "index.json"
 
     @staticmethod
     def safe_folder_name(pathname: str):
@@ -45,7 +56,7 @@ class FileService:
 
     def update_songs_file(self, artist: str, title: str, file_path: str):
 
-        index_file = self.racine / "lyrics" / "index.json"
+        index_file = self.index_file
 
         if index_file.exists():
             with open(index_file, "r", encoding="utf8") as f:
@@ -72,7 +83,7 @@ class FileService:
             raise Exception("Bad request, parameters missing")
 
         name = self.safe_folder_name(name)
-        path = self.racine / "lyrics" / name
+        path = self.lyrics_folder / name
 
         try:
             path.mkdir(parents=True, exist_ok=True)
@@ -92,15 +103,84 @@ class FileService:
         try:
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(content)
-                fp = self.racine / "lyrics" / name / f"{title}.txt"
-                rel_fp = str(fp.relative_to(self.racine / "lyrics"))
+                fp = self.lyrics_folder / name / f"{title}.txt"
+                rel_fp = str(fp.relative_to(self.lyrics_folder))
                 self.update_songs_file(artist=name, title=title, file_path=rel_fp)
                 info("Lyrics was saved successfully")
                 return True
         except IOError as e:
             raise Exception(e)
 
+    def get_list_of_artist(self):
+        index_file = self.index_file
+
+        if not index_file.exists():
+            error("Index not exist. Please add first one lyric\n[Enter] to continue...")
+
+        with open(index_file, "r", encoding="utf-8") as f:
+            try:
+                index_data: [LocalSongModel] = json.load(f)
+            except json.JSONDecodeError as e:
+                if e.msg.lower() == "expecting value":
+                    error("No data into file ! please add first some lyrics.     \n[Enter] to continue")
+                return None
+        sorted_artist = dict(sorted(index_data.items()))
+        return sorted_artist
+
+    def show_my_file(self):
+        """
+         display file with paginator
+         can select an artist and song after that
+         can read , edit or deleted the song
+        """
+
+        my_datas = self.get_list_of_artist()
+
+        if my_datas is None:
+            return
+        while True:
+            choice_artist: str = paginate_data(
+                dico=my_datas,
+                page=1,
+                hint_to_display=KeyValue.KEY,
+                hint_to_return=KeyValue.KEY,
+                expected_type=Union[Text, None]
+            )
+
+            if choice_artist is None:
+                info("Return to the main menu [Enter] to continue")
+                break
+
+            artist_songs: [LocalSongModel] = my_datas.get(choice_artist)
+            song_to_display = {i: song['title'] for i, song in enumerate(artist_songs)}
+            song_kv = {song["title"]: song["path"] for song in artist_songs}
+            choice_song = paginate_data(
+                dico=song_to_display,
+                page=1,
+                hint_to_display=KeyValue.VALUE,
+                hint_to_return=KeyValue.VALUE,
+                expected_type=Union[Text, None]
+            )
+            if choice_song is None:
+                info("Cancel by user [Enter] to continue")
+                return
+
+            song_path = self.lyrics_folder / song_kv[choice_song]
+
+            if not song_path.exists():
+                error(f"{song_path} not exist, check your json file !")
+                return None
+
+            with open(song_path, "r", encoding="utf-8") as f:
+                lyrics = f.read()
+                wipe_screen()
+                print(lyrics)
+                info("[enter] to return to main menu")
+                continue
+        return
+
 
 if __name__ == "__main__":
     fs = FileService()
+
 

@@ -41,11 +41,13 @@ def paginate_data(
     while True:
         wipe_screen()
         print("\n".join(t))
+
         for idx, (key, value) in enumerate(dico.items()):
             items_to_return.append(key if hint_to_return == KeyValue.KEY else value)
             print(f"[{idx}]: {value if hint_to_display == KeyValue.VALUE else key}")
 
-        print(f"page={page}")
+        if page and page > 1:
+            print(f"page={page}")
         option = ["=>", " [+] next " if page and next_page is not None else "", " [x] cancel ", "[-] prev " if page is not None and page > 1 else ""]
         print("".join(option))
         choice = input("Make your choice :").strip()

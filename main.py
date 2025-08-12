@@ -2,17 +2,22 @@ from app_class import Artist
 from app_model.disco_response import Songs
 from typing import Union
 from app_utils import wipe_screen
-from app_utils.color import error
+from app_service import FileService
+from app_utils.color import error,in_green
 
-menu = """
-[1] Search song by Artist
-[2] Search song by title
-[3] Show my saved songs
-[4] Analyse a songs of Artist
-
-[0] Exit
-
-Choose between [1,2,3,4 or 0] : 
+menu = f"""
+*************************************
+**          MAIN MENU              **
+*************************************
+*** [1] Search song by Artist     ***
+*** [2] Search song by title      ***
+*** [3] Show a saved song         ***
+*** [4] Delete a saved song       ***
+*** {in_green("[5] Analyse a songs of Artist")} *** 
+*************************************
+***          [0] Exit             ***
+*************************************
+Choose between [1, 2, 3, 4, 5 or 0] : 
 """
 
 while True:
@@ -32,6 +37,10 @@ while True:
             if song is None:
                 continue
             a.get_lyric_from_url(url=song)
+            continue
+        case "3":
+            fs = FileService()
+            fs.show_my_file()
 
 
 print("end")

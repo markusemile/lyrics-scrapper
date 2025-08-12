@@ -1,8 +1,30 @@
 {
+    "morten": [
+        {
+            "title": "A_Kind_of_Christmas_",
+            "path": "morten\\A_Kind_of_Christmas_.txt"
+        },
+        {
+            "title": "Angel_in_the_Snow",
+            "path": "morten\\Angel_in_the_Snow.txt"
+        }
+    ],
     "coldplay": [
         {
             "title": "Adventure_of_a_Lifet",
             "path": "coldplay\\Adventure_of_a_Lifet.txt"
+        }
+    ],
+    "alice_on": [
+        {
+            "title": "Malade",
+            "path": "alice_on\\Malade.txt"
+        }
+    ],
+    "david_bowie": [
+        {
+            "title": "Absolute_Beginners",
+            "path": "david_bowie\\Absolute_Beginners.txt"
         }
     ]
 }

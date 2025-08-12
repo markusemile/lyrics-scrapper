@@ -3861,3 +3861,247 @@
 12-08-2025 (18:28:19) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
 12-08-2025 (18:28:20) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 8351
 12-08-2025 (18:28:20) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/8351/songs
+12-08-2025 (19:31:15) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:31:15) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (19:31:15) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (19:31:18) :DEBUG : artist_class.py at line 61 => name is morten 
+12-08-2025 (19:31:18) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= morten
+12-08-2025 (19:31:18) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=morten
+12-08-2025 (19:31:19) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (19:31:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title="Diamonds Are a Girl's Best Friend by\xa0Marilyn\xa0Monroe", url='https://genius.com/Marilyn-monroe-diamonds-are-a-girls-best-friend-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (19:31:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='I Wanna Be Loved By You by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-i-wanna-be-loved-by-you-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (19:31:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Antikommerciel Masseappel by\xa0Marvelous\xa0Mosell', url='https://genius.com/Marvelous-mosell-antikommerciel-masseappel-lyrics', primary_artist=PrimaryArtist(id=71166, name='Marvelous Mosell'))
+12-08-2025 (19:31:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Rigtige mænd by\xa0Pernille\xa0Højgaard, Airborne, Benny\xa0Hansen, Stig\xa0Rossen, Jacob\xa0Morild, Jan\xa0Gintberg & Morten\xa0Remar', url='https://genius.com/Pernille-hjgaard-airborne-benny-hansen-stig-rossen-jacob-morild-jan-gintberg-and-morten-remar-rigtige-mnd-lyrics', primary_artist=PrimaryArtist(id=525384, name='Pernille Højgaard'))
+12-08-2025 (19:31:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='My Heart Belongs to Daddy by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-my-heart-belongs-to-daddy-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (19:31:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Fest by\xa0Nik\xa0& Jay & MORTEN\xa0(DNK)', url='https://genius.com/Nik-and-jay-and-morten-dnk-fest-lyrics', primary_artist=PrimaryArtist(id=355177, name='Nik & Jay'))
+12-08-2025 (19:31:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Happy Birthday by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-happy-birthday-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (19:31:19) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (19:31:21) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 258752
+12-08-2025 (19:31:21) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/258752/songs
+12-08-2025 (19:31:32) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (19:31:32) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (19:31:37) :DEBUG : artist_class.py at line 61 => name is morten 
+12-08-2025 (19:31:37) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= morten
+12-08-2025 (19:31:37) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=morten
+12-08-2025 (19:31:38) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (19:31:38) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title="Diamonds Are a Girl's Best Friend by\xa0Marilyn\xa0Monroe", url='https://genius.com/Marilyn-monroe-diamonds-are-a-girls-best-friend-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (19:31:38) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='I Wanna Be Loved By You by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-i-wanna-be-loved-by-you-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (19:31:38) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Antikommerciel Masseappel by\xa0Marvelous\xa0Mosell', url='https://genius.com/Marvelous-mosell-antikommerciel-masseappel-lyrics', primary_artist=PrimaryArtist(id=71166, name='Marvelous Mosell'))
+12-08-2025 (19:31:38) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Rigtige mænd by\xa0Pernille\xa0Højgaard, Airborne, Benny\xa0Hansen, Stig\xa0Rossen, Jacob\xa0Morild, Jan\xa0Gintberg & Morten\xa0Remar', url='https://genius.com/Pernille-hjgaard-airborne-benny-hansen-stig-rossen-jacob-morild-jan-gintberg-and-morten-remar-rigtige-mnd-lyrics', primary_artist=PrimaryArtist(id=525384, name='Pernille Højgaard'))
+12-08-2025 (19:31:38) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='My Heart Belongs to Daddy by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-my-heart-belongs-to-daddy-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (19:31:38) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Fest by\xa0Nik\xa0& Jay & MORTEN\xa0(DNK)', url='https://genius.com/Nik-and-jay-and-morten-dnk-fest-lyrics', primary_artist=PrimaryArtist(id=355177, name='Nik & Jay'))
+12-08-2025 (19:31:38) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Happy Birthday by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-happy-birthday-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (19:31:38) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (19:31:40) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 258752
+12-08-2025 (19:31:40) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/258752/songs
+12-08-2025 (19:31:48) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (19:31:48) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (19:31:52) :DEBUG : artist_class.py at line 61 => name is coldplay 
+12-08-2025 (19:31:52) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= coldplay
+12-08-2025 (19:31:52) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=coldplay
+12-08-2025 (19:31:53) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (19:31:53) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Something Just Like This by\xa0The\xa0Chainsmokers & Coldplay', url='https://genius.com/The-chainsmokers-and-coldplay-something-just-like-this-lyrics', primary_artist=PrimaryArtist(id=150934, name='The Chainsmokers'))
+12-08-2025 (19:31:53) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (19:31:54) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 8351
+12-08-2025 (19:31:54) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/8351/songs
+12-08-2025 (19:45:44) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:46:07) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:46:44) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:47:06) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:50:51) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:52:23) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:53:40) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:54:11) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:54:25) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:59:07) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:59:29) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (19:59:57) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:01:11) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:04:19) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:05:42) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:06:38) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:09:54) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:14:24) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:14:52) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:20:15) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (20:20:15) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (20:20:18) :DEBUG : artist_class.py at line 61 => name is morten 
+12-08-2025 (20:20:18) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= morten
+12-08-2025 (20:20:18) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=morten
+12-08-2025 (20:20:19) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (20:20:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title="Diamonds Are a Girl's Best Friend by\xa0Marilyn\xa0Monroe", url='https://genius.com/Marilyn-monroe-diamonds-are-a-girls-best-friend-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (20:20:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='I Wanna Be Loved By You by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-i-wanna-be-loved-by-you-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (20:20:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Antikommerciel Masseappel by\xa0Marvelous\xa0Mosell', url='https://genius.com/Marvelous-mosell-antikommerciel-masseappel-lyrics', primary_artist=PrimaryArtist(id=71166, name='Marvelous Mosell'))
+12-08-2025 (20:20:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Rigtige mænd by\xa0Pernille\xa0Højgaard, Airborne, Benny\xa0Hansen, Stig\xa0Rossen, Jacob\xa0Morild, Jan\xa0Gintberg & Morten\xa0Remar', url='https://genius.com/Pernille-hjgaard-airborne-benny-hansen-stig-rossen-jacob-morild-jan-gintberg-and-morten-remar-rigtige-mnd-lyrics', primary_artist=PrimaryArtist(id=525384, name='Pernille Højgaard'))
+12-08-2025 (20:20:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='My Heart Belongs to Daddy by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-my-heart-belongs-to-daddy-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (20:20:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Fest by\xa0Nik\xa0& Jay & MORTEN\xa0(DNK)', url='https://genius.com/Nik-and-jay-and-morten-dnk-fest-lyrics', primary_artist=PrimaryArtist(id=355177, name='Nik & Jay'))
+12-08-2025 (20:20:19) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Happy Birthday by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-happy-birthday-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (20:20:19) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (20:20:21) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 258752
+12-08-2025 (20:20:21) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/258752/songs
+12-08-2025 (20:23:32) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:23:50) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:24:36) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:28:07) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:28:25) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:30:35) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:31:13) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:34:14) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:34:52) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:37:26) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:38:11) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:42:01) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:42:49) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:43:06) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:43:48) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:44:49) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:45:35) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:45:55) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:47:04) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:48:11) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:54:06) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:54:38) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:55:31) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:56:11) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:56:31) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:57:00) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (20:57:40) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:00:48) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:02:48) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:04:01) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:05:04) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:05:23) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:06:01) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:06:01) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (21:06:01) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (21:06:04) :DEBUG : artist_class.py at line 61 => name is morten 
+12-08-2025 (21:06:04) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= morten
+12-08-2025 (21:06:04) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=morten
+12-08-2025 (21:06:06) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (21:06:06) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title="Diamonds Are a Girl's Best Friend by\xa0Marilyn\xa0Monroe", url='https://genius.com/Marilyn-monroe-diamonds-are-a-girls-best-friend-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (21:06:06) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='I Wanna Be Loved By You by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-i-wanna-be-loved-by-you-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (21:06:06) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Antikommerciel Masseappel by\xa0Marvelous\xa0Mosell', url='https://genius.com/Marvelous-mosell-antikommerciel-masseappel-lyrics', primary_artist=PrimaryArtist(id=71166, name='Marvelous Mosell'))
+12-08-2025 (21:06:06) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Rigtige mænd by\xa0Pernille\xa0Højgaard, Airborne, Benny\xa0Hansen, Stig\xa0Rossen, Jacob\xa0Morild, Jan\xa0Gintberg & Morten\xa0Remar', url='https://genius.com/Pernille-hjgaard-airborne-benny-hansen-stig-rossen-jacob-morild-jan-gintberg-and-morten-remar-rigtige-mnd-lyrics', primary_artist=PrimaryArtist(id=525384, name='Pernille Højgaard'))
+12-08-2025 (21:06:06) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='My Heart Belongs to Daddy by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-my-heart-belongs-to-daddy-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (21:06:06) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Fest by\xa0Nik\xa0& Jay & MORTEN\xa0(DNK)', url='https://genius.com/Nik-and-jay-and-morten-dnk-fest-lyrics', primary_artist=PrimaryArtist(id=355177, name='Nik & Jay'))
+12-08-2025 (21:06:06) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Happy Birthday by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-happy-birthday-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (21:06:06) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (21:06:22) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 258752
+12-08-2025 (21:06:22) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/258752/songs
+12-08-2025 (21:06:43) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (21:06:43) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (21:06:46) :DEBUG : artist_class.py at line 61 => name is morten 
+12-08-2025 (21:06:46) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= morten
+12-08-2025 (21:06:46) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=morten
+12-08-2025 (21:06:48) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (21:06:48) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title="Diamonds Are a Girl's Best Friend by\xa0Marilyn\xa0Monroe", url='https://genius.com/Marilyn-monroe-diamonds-are-a-girls-best-friend-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (21:06:48) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='I Wanna Be Loved By You by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-i-wanna-be-loved-by-you-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (21:06:48) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Antikommerciel Masseappel by\xa0Marvelous\xa0Mosell', url='https://genius.com/Marvelous-mosell-antikommerciel-masseappel-lyrics', primary_artist=PrimaryArtist(id=71166, name='Marvelous Mosell'))
+12-08-2025 (21:06:48) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Rigtige mænd by\xa0Pernille\xa0Højgaard, Airborne, Benny\xa0Hansen, Stig\xa0Rossen, Jacob\xa0Morild, Jan\xa0Gintberg & Morten\xa0Remar', url='https://genius.com/Pernille-hjgaard-airborne-benny-hansen-stig-rossen-jacob-morild-jan-gintberg-and-morten-remar-rigtige-mnd-lyrics', primary_artist=PrimaryArtist(id=525384, name='Pernille Højgaard'))
+12-08-2025 (21:06:48) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='My Heart Belongs to Daddy by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-my-heart-belongs-to-daddy-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (21:06:48) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Fest by\xa0Nik\xa0& Jay & MORTEN\xa0(DNK)', url='https://genius.com/Nik-and-jay-and-morten-dnk-fest-lyrics', primary_artist=PrimaryArtist(id=355177, name='Nik & Jay'))
+12-08-2025 (21:06:48) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Happy Birthday by\xa0Marilyn\xa0Monroe', url='https://genius.com/Marilyn-monroe-happy-birthday-lyrics', primary_artist=PrimaryArtist(id=1949, name='Marilyn Monroe'))
+12-08-2025 (21:06:48) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (21:07:46) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:08:51) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:08:51) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (21:08:51) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (21:08:55) :DEBUG : artist_class.py at line 64 => name is None 
+12-08-2025 (21:08:58) :DEBUG : artist_class.py at line 61 => name is d 
+12-08-2025 (21:08:58) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= d
+12-08-2025 (21:08:58) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=d
+12-08-2025 (21:09:00) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (21:09:00) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Despacito (Remix) by\xa0Luis\xa0Fonsi & Daddy\xa0Yankee (Ft.\xa0Justin\xa0Bieber)', url='https://genius.com/Luis-fonsi-and-daddy-yankee-despacito-remix-lyrics', primary_artist=PrimaryArtist(id=344497, name='Luis Fonsi'))
+12-08-2025 (21:09:00) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Drunk in Love by\xa0Beyoncé (Ft.\xa0JAY-Z)', url='https://genius.com/Beyonce-drunk-in-love-lyrics', primary_artist=PrimaryArtist(id=498, name='Beyoncé'))
+12-08-2025 (21:09:00) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='SAD! by\xa0XXXTENTACION', url='https://genius.com/Xxxtentacion-sad-lyrics', primary_artist=PrimaryArtist(id=396565, name='XXXTENTACION'))
+12-08-2025 (21:09:00) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (21:09:30) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:10:31) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:11:31) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:11:44) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:12:16) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:13:09) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:13:51) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:14:58) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:15:30) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:17:56) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:41:33) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:49:39) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:50:30) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:52:05) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:52:37) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:53:56) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:57:02) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:57:02) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (21:57:02) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (21:57:07) :DEBUG : artist_class.py at line 61 => name is alice 
+12-08-2025 (21:57:07) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= alice
+12-08-2025 (21:57:07) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=alice
+12-08-2025 (21:57:08) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (21:57:08) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Beautiful by\xa0Katie\xa0Ladner, Alice\xa0Lee, Jessica\xa0Keenan Wynn, Barrett\xa0Wilbert Weed & Elle\xa0McLemore', url='https://genius.com/Katie-ladner-alice-lee-jessica-keenan-wynn-barrett-wilbert-weed-and-elle-mclemore-beautiful-lyrics', primary_artist=PrimaryArtist(id=634906, name='Katie Ladner'))
+12-08-2025 (21:57:08) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Candy Store by\xa0Jessica\xa0Keenan Wynn, Alice\xa0Lee & Elle\xa0McLemore', url='https://genius.com/Jessica-keenan-wynn-alice-lee-and-elle-mclemore-candy-store-lyrics', primary_artist=PrimaryArtist(id=634903, name='Jessica Keenan Wynn'))
+12-08-2025 (21:57:08) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Big Fun by\xa0Evan\xa0Todd, Jessica\xa0Keenan Wynn, Alice\xa0Lee, Barrett\xa0Wilbert Weed & Jon\xa0Eidson', url='https://genius.com/Evan-todd-jessica-keenan-wynn-alice-lee-barrett-wilbert-weed-and-jon-eidson-big-fun-lyrics', primary_artist=PrimaryArtist(id=634907, name='Evan Todd'))
+12-08-2025 (21:57:08) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Blue Lights by\xa0Jorja\xa0Smith', url='https://genius.com/Jorja-smith-blue-lights-lyrics', primary_artist=PrimaryArtist(id=632912, name='Jorja Smith'))
+12-08-2025 (21:57:08) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Blue by\xa0Evan\xa0Todd, Alice\xa0Lee, Barrett\xa0Wilbert Weed, Elle\xa0McLemore & Jon\xa0Eidson', url='https://genius.com/Evan-todd-alice-lee-barrett-wilbert-weed-elle-mclemore-and-jon-eidson-blue-lyrics', primary_artist=PrimaryArtist(id=634907, name='Evan Todd'))
+12-08-2025 (21:57:08) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (21:57:50) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:57:50) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (21:57:50) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (21:57:54) :DEBUG : artist_class.py at line 61 => name is alice 
+12-08-2025 (21:57:54) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= alice
+12-08-2025 (21:57:54) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=alice
+12-08-2025 (21:57:55) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (21:57:55) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Beautiful by\xa0Katie\xa0Ladner, Alice\xa0Lee, Jessica\xa0Keenan Wynn, Barrett\xa0Wilbert Weed & Elle\xa0McLemore', url='https://genius.com/Katie-ladner-alice-lee-jessica-keenan-wynn-barrett-wilbert-weed-and-elle-mclemore-beautiful-lyrics', primary_artist=PrimaryArtist(id=634906, name='Katie Ladner'))
+12-08-2025 (21:57:55) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Candy Store by\xa0Jessica\xa0Keenan Wynn, Alice\xa0Lee & Elle\xa0McLemore', url='https://genius.com/Jessica-keenan-wynn-alice-lee-and-elle-mclemore-candy-store-lyrics', primary_artist=PrimaryArtist(id=634903, name='Jessica Keenan Wynn'))
+12-08-2025 (21:57:55) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Big Fun by\xa0Evan\xa0Todd, Jessica\xa0Keenan Wynn, Alice\xa0Lee, Barrett\xa0Wilbert Weed & Jon\xa0Eidson', url='https://genius.com/Evan-todd-jessica-keenan-wynn-alice-lee-barrett-wilbert-weed-and-jon-eidson-big-fun-lyrics', primary_artist=PrimaryArtist(id=634907, name='Evan Todd'))
+12-08-2025 (21:57:55) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Blue Lights by\xa0Jorja\xa0Smith', url='https://genius.com/Jorja-smith-blue-lights-lyrics', primary_artist=PrimaryArtist(id=632912, name='Jorja Smith'))
+12-08-2025 (21:57:55) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Blue by\xa0Evan\xa0Todd, Alice\xa0Lee, Barrett\xa0Wilbert Weed, Elle\xa0McLemore & Jon\xa0Eidson', url='https://genius.com/Evan-todd-alice-lee-barrett-wilbert-weed-elle-mclemore-and-jon-eidson-blue-lyrics', primary_artist=PrimaryArtist(id=634907, name='Evan Todd'))
+12-08-2025 (21:57:55) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (21:58:24) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (21:58:24) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (21:58:24) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (21:58:27) :DEBUG : artist_class.py at line 61 => name is alice 
+12-08-2025 (21:58:27) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= alice
+12-08-2025 (21:58:27) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=alice
+12-08-2025 (21:58:28) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (21:58:28) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Beautiful by\xa0Katie\xa0Ladner, Alice\xa0Lee, Jessica\xa0Keenan Wynn, Barrett\xa0Wilbert Weed & Elle\xa0McLemore', url='https://genius.com/Katie-ladner-alice-lee-jessica-keenan-wynn-barrett-wilbert-weed-and-elle-mclemore-beautiful-lyrics', primary_artist=PrimaryArtist(id=634906, name='Katie Ladner'))
+12-08-2025 (21:58:28) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Candy Store by\xa0Jessica\xa0Keenan Wynn, Alice\xa0Lee & Elle\xa0McLemore', url='https://genius.com/Jessica-keenan-wynn-alice-lee-and-elle-mclemore-candy-store-lyrics', primary_artist=PrimaryArtist(id=634903, name='Jessica Keenan Wynn'))
+12-08-2025 (21:58:28) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Big Fun by\xa0Evan\xa0Todd, Jessica\xa0Keenan Wynn, Alice\xa0Lee, Barrett\xa0Wilbert Weed & Jon\xa0Eidson', url='https://genius.com/Evan-todd-jessica-keenan-wynn-alice-lee-barrett-wilbert-weed-and-jon-eidson-big-fun-lyrics', primary_artist=PrimaryArtist(id=634907, name='Evan Todd'))
+12-08-2025 (21:58:28) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Blue Lights by\xa0Jorja\xa0Smith', url='https://genius.com/Jorja-smith-blue-lights-lyrics', primary_artist=PrimaryArtist(id=632912, name='Jorja Smith'))
+12-08-2025 (21:58:28) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Blue by\xa0Evan\xa0Todd, Alice\xa0Lee, Barrett\xa0Wilbert Weed, Elle\xa0McLemore & Jon\xa0Eidson', url='https://genius.com/Evan-todd-alice-lee-barrett-wilbert-weed-elle-mclemore-and-jon-eidson-blue-lyrics', primary_artist=PrimaryArtist(id=634907, name='Evan Todd'))
+12-08-2025 (21:58:28) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (21:58:43) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (21:58:43) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (21:58:46) :DEBUG : artist_class.py at line 61 => name is alice on 
+12-08-2025 (21:58:46) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= alice on
+12-08-2025 (21:58:46) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=alice on
+12-08-2025 (21:58:47) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (21:58:47) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (21:58:49) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 483815
+12-08-2025 (21:58:49) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/483815/songs
+12-08-2025 (21:58:58) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 483815
+12-08-2025 (21:58:58) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/483815/songs
+12-08-2025 (21:59:06) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 483815
+12-08-2025 (21:59:06) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/483815/songs
+12-08-2025 (21:59:10) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 483815
+12-08-2025 (21:59:10) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/483815/songs
+12-08-2025 (22:00:38) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (22:01:02) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (22:06:07) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (22:07:33) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (22:07:33) :DEBUG : artist_class.py at line 29 => Initialisation of Artist
+12-08-2025 (22:07:33) :DEBUG : api_service.py at line 14 => initialisation of ApiService
+12-08-2025 (22:07:40) :DEBUG : artist_class.py at line 61 => name is david bowie 
+12-08-2025 (22:07:40) :DEBUG : artist_class.py at line 76 => make request to [api_service]/[find_artist] with args: artist= david bowie
+12-08-2025 (22:07:40) :DEBUG : api_service.py at line 25 => Make request at http://api.genius.com/search?q=david bowie
+12-08-2025 (22:07:42) :ERROR : artist_class.py at line 37 => Hits not found into query or empty
+12-08-2025 (22:07:42) :ERROR : artist_class.py at line 93 => can't find result or primary_artist and name into result=Result(full_title='Under Pressure by\xa0Queen & David\xa0Bowie', url='https://genius.com/Queen-and-david-bowie-under-pressure-lyrics', primary_artist=PrimaryArtist(id=563, name='Queen'))
+12-08-2025 (22:07:42) :DEBUG : artist_class.py at line 103 => pass list to paginatedData
+12-08-2025 (22:07:43) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 9534
+12-08-2025 (22:07:43) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/9534/songs
+12-08-2025 (22:07:46) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 9534
+12-08-2025 (22:07:46) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/9534/songs
+12-08-2025 (22:07:49) :DEBUG : artist_class.py at line 126 => make request to [api_service]/[find_artist_songs] with args: ID= 9534
+12-08-2025 (22:07:49) :DEBUG : api_service.py at line 38 => Make request at http://api.genius.com/artists/9534/songs
+12-08-2025 (22:09:03) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
+12-08-2025 (22:09:47) :DEBUG : log_logger.py at line 18 => ********************** LAST START HERE BEGIN HERE ***************************
